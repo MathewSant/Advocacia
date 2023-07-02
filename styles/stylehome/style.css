@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif sans-serif;
+}
+
+/* Tela 1 */
+.screen-one {
+  background-image: url("../../images/advocacia/interior-design-old-architecture.jpg");
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.section-screen-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.testeloko {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.h1ScreenOne {
+  text-transform: uppercase;
+  font-size: 3.6rem;
+}
+.h4ScreenOne {
+  font-size: 2rem;
+}
+
+.img-logo {
+  width: 6rem;
+  transition: 0.2s;
+}
+.img-logo:hover {
+  transform: scale(1.1);
+}
+.nav-text {
+  font-weight: bold;
+}
+
+.section-container {
+  width: auto;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.service_contact {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s;
+}
+.service_contact:hover {
+  transform: scale(1.1);
+  text-decoration: underline;
+}
+.centralize {
+  margin-top: 15vh;
+}
+
+.btn-know-more {
+  padding: 10px 25px;
+  border: 2px #fff solid;
+}
+.paragraphArrow {
+  margin-top: 10rem;
+}
+.arrowDown {
+  width: 100px;
+  /* margin-top: 20vh; */
+}
+
+/* Tela 2 */
+
+.areasAtuacao {
+  color: #fff;
+  font-size: 3rem;
+}
+.container-00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overViewPosition {
+  display: block;
+  width: 45vw;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+.carousel-item-1 {
+  background-image: url("../../images/advocacia/blue-light-73088_1280.jpg");
+}
+.carousel-item-2 {
+  background-image: url("../../images/advocacia/protection-of-minors-2815845_1280.jpg");
+}
+.carousel-item-3 {
+  background-image: url("../../images/advocacia/business-3298472_1280.jpg");
+}
+.carousel-item-4 {
+  background-image: url("../../images/advocacia/gavel-3576969_1280.jpg");
+  /* background-position: bottom; */
+}
+.carousel-item-5 {
+  background-image: url("../../images/advocacia/gavel-7533897_1280.jpg");
+  background-position: center;
+}
+.carousel-item-6 {
+  background-image: url("../../images/advocacia/man-5543267_1280.jpg");
+}
+/* Tela 3 */
+.screen-three {
+  background-color: #000;
+  height: 90vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.alignContact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10vh;
+}
+.contacte-nos {
+  /* background-color:; */
+  border: #a8a7a7 2px solid;
+
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formContact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.inputContact {
+  border-radius: 10px;
+  border: none;
+  padding: 3px;
+}
+.inputContact:focus {
+  padding: 3.5px;
+  background-color: #dbdbdb;
+}
+.formSectiontel {
+  margin-right: 1.3rem;
+}
+.submitContact {
+  width: 40%;
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.submitContact:hover {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #000;
+  border-radius: 10px;
+}
+
+/* Section Clientes */
+.number-rockets {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+.information-rockets {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+/* Frase */
+.frase {
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  color: #000;
+}
+.imgFrase {
+  background-color: #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  padding: 20px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+.imgFrase:hover {
+  opacity: 0.8;
+}
+.img-acordo {
+  width: 5rem;
+}
+/* Tela 4 */
+.screen-four {
+  background-image: url("../../images/home/04.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  text-transform: uppercase;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 13.5px;
+  height: 3rem;
+  background-color: #000;
+}
+.itens-footer {
+  display: flex;
+  align-items: center;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  color: #a8a7a7;
+}
+
+/* mobile */
+
+@media (max-width: 833px) {
+  .service_contact {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: 900;
+  }
+  .testeloko {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .overViewPosition {
+    width: 60vw;
+  }
+  .paragraphServices {
+    font-size: 1.3rem;
+  }
+  .carousel-item-1 {
+    background-position: center;
+  }
+  .carousel-item-3 {
+    background-position: left;
+  }
+  .imgFrase {
+    width: 75%;
+  }
+  .carousel-item-4 {
+    background-position: bottom;
+  }
+}
+@media (max-width: 425px) {
+  .imgFrase {
+    width: 100%;
+  }
+  .overViewPosition {
+    width: 75vw;
+  }
+}
+@media (max-width: 402px) {
+  .h1ScreenOne {
+    font-size: 3rem;
+  }
+  .h4ScreenOne {
+    font-size: 1.5rem;
+  }
+  .form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .formSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .overViewPosition {
+    width: 85vw;
+  }
+}
+
+@media (max-width: 310px) {
+  .contacte-nos {
+    /* ba   border-radius: 20px;ckground-color:; */
+    border: none;
+
+    width: 90%;
+    /* padding: 5px; */
+  }
+  .imgFrase {
+    width: 90%;
+  }
+  .formSectiontel {
+    margin-right: 0rem;
+  }
+  .h1ScreenOne {
+    font-size: 2.8rem;
+  }
+  .h4ScreenOne {
+    font-size: 1.3rem;
+  }
+}
