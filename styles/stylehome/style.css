@@ -304,6 +304,9 @@ footer a:hover {
     flex-direction: column;
     align-items: center;
   }
+  .formSectiontel {
+    margin-right: 0rem;
+  }
   .formSection {
     display: flex;
     flex-direction: column;
